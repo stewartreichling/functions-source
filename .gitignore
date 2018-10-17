@@ -1,0 +1,4 @@
+python/requirements-dev.txt
+python/env/*
+python/http/__pycache__/*
+.vscode
