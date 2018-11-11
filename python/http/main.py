@@ -5,7 +5,7 @@ function is based on the Flask microframework <http://flask.pocoo.org/>.
 """
 
 def hello_http(request):
-    """Function that responds to an HTTP request.
+    """A function that responds to an HTTP request.
 
     Args:
         request (flask.Request): The request object.

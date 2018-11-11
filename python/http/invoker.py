@@ -16,6 +16,7 @@ from flask import Flask, request, make_response
 FUNCTION_MODULE = 'main'
 FUNCTION_ENTRYPOINT = 'hello_http'
 
+
 def load_user_function(module, entrypoint):
     """Load the user's function and return it to the caller."""
     mod = import_module(module)
