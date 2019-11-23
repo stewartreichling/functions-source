@@ -9,8 +9,6 @@ triggered by an HTTP request. The directory contains source code, a Dockerfile
 and one or more dependencies file(s). Each directory can be built into a
 runnable container using the `docker build` command (as shown below).
 
-Additional languages and triggers will be added to in the future.
-
 ## Pre-requisites
 
 * [docker](https://www.docker.com/)
